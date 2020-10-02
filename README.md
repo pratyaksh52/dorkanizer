@@ -1,4 +1,4 @@
-# Downloads folder organiser
+# Downloads Folder Organiser
 Automatically organises your cluttered Downloads folder by creating folders of different categories and moving all the files in their respective category.
 
 Creates a `history.txt` file on the Downloads folder which contains names of the files existing on the folder before running the script. 
