@@ -1,0 +1,15 @@
+## PRE-DEFINED CATEGORIES AND THEIR ASSOCIATED EXTENSIONS USED WHEN A VALID JSON IS NOT FOUND.
+
+"Videos":            {".mp4", ".mkv", ".flv", ".avi", ".webm", ".mov", ".wmv"},
+"Audio":             {".mp3", ".m4a", ".mpeg", ".wav", ".aac", ".wma", ".flac"},
+"Applications":      {".exe", ".msi"},
+"Compressed":        {".zip", ".rar", ".7z", ".tar", ".gz"},
+"Not Miscellaneous": {".iso", ".ini"},
+"Miscellaneous":     {".torrent"},
+"Documents":         {".pdf", ".docx", ".doc", ".pptx", ".ppt", ".xlsx", ".xls", ".csv", ".tsv", ".txt"},
+"Images":            {".jpg", ".jpeg", ".png", ".gif", ".bmp"},
+"Programming":       {".py", ".java", ".class", ".c", ".cpp", ".cs", ".go", ".mod", ".html", ".css", ".js", ".ts", ".php", ".json", ".r", ".kt", ".md", ".ipynb", ".sh", ".xml"}
+
+
+**NOTE: MAKING CHANGES TO THIS FILE WON'T CHANGE THE PRE-DEFINED CATEGORIES. PLEASE DO NOT MAKE CHANGES TO THIS FILE**
+IT IS RECOMMENDED TO USE 'extensions.json' ALONGSIDE THE BINARY TO USE CUSTOM CATEGORIES AND EXTENSIONS.
