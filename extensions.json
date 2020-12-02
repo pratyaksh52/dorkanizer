@@ -51,7 +51,7 @@
         ".xls",
         ".csv",
         ".tsv",
-        ".ipynb"
+        ".txt"
     ],
 
     "Images": [
@@ -70,14 +70,18 @@
         ".cpp",
         ".cs",
         ".go",
+        ".mod",
         ".html",
         ".css",
         ".js",
+        ".ts",
         ".php",
         ".json",
-        ".R",
         ".r",
         ".kt",
-        ".md"
+        ".md",
+        ".ipynb",
+        ".sh",
+        ".xml"
     ]
 }
