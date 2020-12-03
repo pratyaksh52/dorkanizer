@@ -1,17 +1,20 @@
-# Downloads Folder Organiser
+# Dorkanizer
 
-Automatically organises your cluttered Downloads folder by creating folders of different categories and moving all the files in their respective category.
+Dorkanizer is a Command-line tool that automatically organizes your **Downloads** folder by categorizing files on the basis of their extensions.
 
-Creates a `history.txt` file on the Downloads folder which contains names of the files existing on the folder before running the script.
-
-## Pre-requisites
-
-1. You must have python installed on your machine.
-2. Install *pytz* by using:
-
-    ```pip install pytz```
+```
+go get -u github.com/pratyaksh52/dorkanizer
+```
 
 ## Usage
 
-1. Simply run [`organiser.py`](./organiser.py) in the terminal/command prompt.
-2. The script uses a JSON file [`extensions.json`](./extensions.json) to create categories and their extensions, you can edit them to your liking and create new categories of your choice.
+The program uses a JSON file [`extensions.json`](./extensions.json) which contains a template of categories and their extensions, you can edit them to your liking and create new categories of your choice. Changes made to this file would reflect in the program provided both the files are in the same directory.
+
+The program would use a pre-defined template if the JSON file is not available. The pre-defined template is the same as the default values in the JSON file. [`predefined.txt`](./predefined.txt) is a text file containing the template (modifying this text file won't change the pre-defined template).
+
+Download for your preferred platform below:
+> [`Windows`](https://github.com/pratyaksh52/dorkanizer/releases/tag/windows-v1.0)
+> [`Linux`](https://github.com/pratyaksh52/dorkanizer/releases/tag/linux-v1.0)
+
+## Older Releases
+Visit the [Releases](https://github.com/pratyaksh52/dorkanizer/releases) page for older releases.
