@@ -24,7 +24,7 @@ func main() {
 
 	// Checking platform
 	if runtime.GOOS != "windows" && runtime.GOOS != "linux" {
-		fmt.Println("This program has only been tested on Windows. Please don't run this on your system")
+		fmt.Println("This program has only been tested on Windows and Linux, run the peogram at your own risk. \nChange the source code to run on your system.")
 		os.Exit(0)
 	}
 
@@ -163,7 +163,7 @@ func moveFiles(path string, dir []os.FileInfo, extensions map[string][]string) e
 		"dorkanizer.zip",
 		"dorkanizer",
 		"dorkanizer.bin",
-	} // other exceptions to be ignored
+	} // other files/folders which are to be ignored
 
 	// looping though each file/folder in the directory
 	for _, file := range dir {
